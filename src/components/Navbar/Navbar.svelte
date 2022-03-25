@@ -17,5 +17,8 @@
       <Link to="/register">Registrar</Link>
       <Link to="/login">Login</Link>
     {/if}
+    {#if isLoggedUser}
+      <Link to="/login">Logout</Link>
+    {/if}
   </nav>
 </div>
